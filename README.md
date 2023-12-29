@@ -1,6 +1,6 @@
 GUESS THE NUMBER USING JAVASCIPT WITH ANIMATIONS IN MY OWN DESIGN IN THIS WEBSITE
 
-IF YOU WANT PLAY MY GAME THEN GO - https://guess-the-number-playful-game.netlify.app
+IF YOU WANT PLAY MY GAME THEN GO -https://playful-guessing-number-game.netlify.app
 
 IT IS VERY RESPONSIVE ALSO.
 
