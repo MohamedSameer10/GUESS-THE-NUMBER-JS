@@ -1,4 +1,9 @@
 GUESS THE NUMBER USING JAVASCIPT WITH ANIMATIONS IN MY OWN DESIGN IN THIS WEBSITE
+
+IF YOU WANT PLAY MY GAME THEN GO - https://guess-the-number-playful-game.netlify.app
+
+IT IS VERY RESPONSIVE ALSO.
+
 ![image](https://github.com/MohamedSameer10/GUESS-THE-NUMBER-JS/assets/154678407/d4296a83-9680-44a6-8152-a9a448c68954)
 
 If you enter no value in Input Box
