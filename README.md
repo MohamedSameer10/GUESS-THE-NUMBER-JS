@@ -4,6 +4,8 @@ IF YOU WANT PLAY MY GAME THEN GO -https://playful-guessing-number-game.netlify.a
 
 IT IS VERY RESPONSIVE ALSO.
 
+YOU ALSO TYPE THE ENTER BUTTON IN YOUR KEYBOARD TO CHECK ALSO THE BUTTON CHECK ALSO WORKS
+
 ![image](https://github.com/MohamedSameer10/GUESS-THE-NUMBER-JS/assets/154678407/d4296a83-9680-44a6-8152-a9a448c68954)
 
 If you enter no value in Input Box
