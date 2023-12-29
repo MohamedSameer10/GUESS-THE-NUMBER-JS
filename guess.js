@@ -1,6 +1,8 @@
 const btn = document.querySelector("button")
 const input = document.querySelector("#number")
 const box = document.querySelector(".container")
+const round1 = document.querySelector("#round1")
+const round2 = document.querySelector("#round2")
 let resultValue = 0
 let msg = document.createElement("h5")
 let result = document.createElement("h3")
@@ -27,8 +29,10 @@ function guess(){
         msg.className = "green"
         box.classList.remove("move")
         box.classList.add("animation")
+        round1.classList.add("round")
+        round2.classList.add("round")
 
-        if(resultValue == 10){
+        if(resultValue === 10){
             alert("👋👋YOU WON 👋👋")
         }
     }
@@ -44,7 +48,7 @@ function guess(){
     }
 
     else{
-        if(resultValue == 0){
+        if(resultValue === 0){
             result.innerHTML = `Your Score is <span class = "zero"><br>0</span>`
             box.appendChild(result)
         }
@@ -54,6 +58,8 @@ function guess(){
         msg.classList.remove("mgtop")
         box.classList.remove("move")
         box.classList.add("animation")
+        round1.classList.add("round")
+        round2.classList.add("round")
 
     }
 }
@@ -64,6 +70,8 @@ function wrong(){
         box.appendChild(msg)
         box.classList.add("move")
         msg.classList.add("mgtop")
+        round1.classList.add("round")
+        round2.classList.add("round")
 }
 
 
