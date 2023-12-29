@@ -1,1 +1,1 @@
-Guess the number using javascript
+GUESS THE NUMBER USING JAVASCIPT WITH ANIMATIONS 
