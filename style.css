@@ -166,45 +166,50 @@ p{
     text-align: center;
     font-size: 1.3rem;
     padding-bottom: 2rem;
-    animation: animate 1s forwards;
+    scale: 0;
+    opacity: 0;
+    animation: animate 1s forwards 0.7s;
 }
 
 .result{
     text-align: center;
+    scale: 0;
+    opacity: 0;
     padding-top: 2rem;
     color: rgb(195, 135, 255);
     font-weight: 500;
     font-size: 1.7rem;
-    animation: animate 1s forwards;
+    animation: animate 1s forwards 0.7s;
 }
 
 .result span{
     color: rgb(0, 219, 0);
     font-weight: 600;
     font-size: 2.5rem;
+    scale: 0;
+    opacity: 0;
+    animation: animate 1s forwards 0.7s;
 }
 
 .result span.zero{
     color: red;
     font-size: 2rem;
     padding-left: 0.3rem;
+    scale: 0;
+    opacity: 0;
+    animation: animate 1s forwards 0.7s;
 }
 
 .animation{
-    animation: height 0.4s forwards;
+    animation: height 1s forwards;
 }
 
 .move{
-    animation: smallheight 0.5s forwards;
+    animation: smallheight 1s forwards;
 }
 
 
 @keyframes animate {
-
-    from{
-        scale: 0;
-        opacity: 0;
-    }
 
     to{
         scale: 1;
