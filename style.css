@@ -354,10 +354,10 @@ p{
         right: -290px;
     }
     .shape .round:first-child{
-        top: -210px;
+        top: -230px;
     }
     .shape .round:last-child{
-        bottom: -210px;
+        bottom: -230px;
         right: -290px;
     }
 
@@ -368,6 +368,10 @@ p{
     .container .input input{
         height: 7vh;
         font-size: 1.2rem;
+    }
+
+    .container h1:nth-child(2){
+        font-size: 0.9rem;
     }
 }
 
